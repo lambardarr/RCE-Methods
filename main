@@ -1,0 +1,25 @@
+Common ways to get RCE:
+
+- SSRF to Metadata
+- Jenkins /script
+- Jenkins Orange RCE
+- Leaked cloud creds/keys (online, via LFD, ect)
+- Arbitrary file upload
+- ImageTragik
+- SSTI
+- Template injection
+- Java deserialisation
+- Rce via leaked secret_key_base in Ruby Applications
+- Kubernetes api exposed
+- Kubernetes pod api exposed
+- Login page accepted `curl` as part of the login.
+- Cross Site Web Socket Hijacking(CSWSH)
+- Ghost Script exploits
+- SSRF with Command injection
+- Configuration scripts left exposed
+- MS08-067
+- Type confusion
+- Jsonpickle exploitation
+- Apache Struts via Content-Type
+- XXE
+- Default Creds
